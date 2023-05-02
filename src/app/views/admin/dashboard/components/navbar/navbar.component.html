@@ -1,0 +1,16 @@
+<div class="navbarr">
+    <div class="container">
+       
+    <ul>
+        <li [ngClass]="{'activate': activated}" (click)="setFirstView()"> 
+            <img src="assets/fast-delivery.png" alt="avatar">
+            <span>livration</span>
+        </li>
+
+        <li [ngClass]="{'activate': !activated}" (click)="setSecondView()">
+            <img src="assets/diagram.png" alt="avatar">
+            <span>statistique</span>
+        </li>
+    </ul>
+    </div>
+</div>

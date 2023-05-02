@@ -1,0 +1,64 @@
+.loginView {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loginForm {
+        border-radius: 10px;
+        width: 40%;
+        height: 80%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        header {
+
+            h1 {
+                font-weight: 400;
+                font-size: 50px;
+                color: #5CB874;
+            }
+        }
+        main {
+            width: min-content;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            input{
+                all: unset;
+                border: 3px solid #5CB874;
+                padding: 10px 55px;
+                border-radius: 25px;
+            
+                margin: 5px 10px;
+
+            }
+
+            button {
+                all: unset;
+                padding: 15px 25px;
+                cursor: pointer;
+                margin : 10px 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 2px 2px 5px 0px #5CB874;
+                color: white;
+                background-color: #5CB874;
+                transition: 0.1s;
+                border-radius: 25px;
+                &:hover
+                {
+                    transform: translateY(-5px);
+                     box-shadow: 5px 5px 15px 0px #5CB874;
+
+                    color: white;
+                    background-color: #5CB874;
+                }
+            }
+        }
+    }
+}

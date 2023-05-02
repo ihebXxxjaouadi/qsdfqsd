@@ -1,0 +1,10 @@
+<div class="chart-container">
+    <header>
+    </header>
+    <canvas  id="MyChart" >{{ chart }}</canvas>
+    <div class="statInfo">
+        <p>total livraison : {{nbRecNonTraiter + nbRecTraiter }} </p>
+        <p style="color: #8a73d5;">livraison traiter : {{nbRecTraiter}}</p>
+        <p style="color: #f79191;">livraison en cours : {{nbRecNonTraiter }}</p> 
+    </div>    
+</div>

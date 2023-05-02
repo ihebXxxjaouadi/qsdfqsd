@@ -1,0 +1,166 @@
+.addReclamationView {
+
+
+    // align-items: center;
+    // justify-content: center;
+    #select-container {
+        height: 40px;
+        position: relative;
+        width: 420px;
+      }
+      
+      #dropdown {
+        border: 3px solid #5CB874;
+        border-radius: 50px;
+
+        background:#fff;
+        color: #111;
+        cursor: pointer;
+        outline: none;
+        padding: 0 0 0 20px;
+        width: 500px;
+        height: 70px;
+      }
+
+      #dropdown option {
+        background: #333;
+        color: #ffffff;
+      }
+      
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .reducepad {
+        margin: -5px;
+        align-self: center;
+        color: 5CB874;
+        font-weight: large;
+        font-size: 1.2em;
+    }
+
+    .notification {
+        padding: 15px 20px;
+        background: #5CB874;
+        border-bottom: 5px solid #5CB874 ;
+        text-align: center;
+        color: #fff;
+        font-weight: 2em;
+        display: none;
+    }
+
+    .showNot {
+        display: block;
+    }
+    .animatedContainer {
+
+        width: 45%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: rgba($color: #000000, $alpha: 0.1);
+       
+        img {
+            width: 80%;
+        }
+
+    }
+
+
+    .reclamationForm {
+
+        width: 55%;
+        height: 100%;
+        background-color: #ffffff50;
+        border-radius: 10px;
+ 
+        box-shadow: 0 0 15px white;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        header {
+
+            h3 {
+                color: 5CB874;
+            }
+        }
+        main {
+            width: min-content;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            input, textarea {
+                
+                box-shadow: 5px 5px 15px 0px #5CB874;
+
+                all: unset;
+                border: 3px solid #5CB874;
+                padding: 10px 55px;
+
+                border-radius: 50px;
+
+                &:hover {
+                    background-color: #e6646510;
+                }
+                margin: 5px 10px;
+                background-color: #fff;
+            }
+
+            textarea {
+                box-shadow: 5px 5px 15px 0px #5CB874;
+
+                all: unset;
+                border: 3px solid #5CB874;
+                padding: 10px 55px;
+
+                &:hover {
+                    background-color: #e6646510;
+                }
+                margin: 5px 10px;
+                background-color: #fff;
+                border-radius: 20px;
+
+            }
+            
+            button {
+                all: unset;
+                border-radius: 50px;
+
+                padding: 15px 25px;
+                cursor: pointer;
+                margin : 10px 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 2px 2px 5px 0px #5CB874;
+                color: white;
+                background-color: #5CB874;
+                transition: 0.1s;
+                &:hover
+                {
+                    transform: translateY(-5px);
+                     box-shadow: 5px 5px 15px 0px #5CB874;
+
+                    color: white;
+                    background-color: #5CB874;
+                }
+            }
+
+            .inlineInput {
+
+            display: flex;
+            justify-content: space-between;
+                input {
+                    width: 45%;
+
+                }
+            }
+        }
+    }
+}

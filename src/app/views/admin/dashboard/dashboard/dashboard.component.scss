@@ -1,0 +1,23 @@
+.dashboardView {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+  
+    .mainBloq  {
+        width: 100%;
+        height: 95%;
+         * {
+            width: 100%;
+         }
+        .footer {
+            height: 5%;
+            text-align: center;
+            
+        }
+    }
+    
+
+
+}
